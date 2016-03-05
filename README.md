@@ -81,7 +81,8 @@ import scipy as sp
 ```
 then sin, cos, exp are accessed by `np.sin(), np.cos(), np.exp()`. You can also import commonly-used functions directly:
 ```python 
-from numpy import sin, cos```
+from numpy import sin, cos
+```
 1. Do everyting math using numpy. It just makes it a lot easier and clearer. 
 1. Unlike some other languages, Python cares about whitespaces and tabs vs spaces. You have to make sure indentations line up or things won't work properly. This is the equivalent of forgetting a closin bracket in other languages.
 1. "Comprehension" is super powerful. They let you do something for each item of a dictionary or list on one line. For example, if you want to get a list of the squares of numbers, you can type:
