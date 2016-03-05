@@ -6,10 +6,12 @@ by Nicholas Knezek, March 2016
 Python on mac is easiest to install using [Homebrew](http://brew.sh), a command-line package manager for OS X. Install homebrew by typing
 
 ```bash 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 ```bash
-brew update && brew upgrade```
+brew update && brew upgrade
+```
 
 This will install and set up Homebrew on your local machine. Homebrew organizes itself in analogy with brewing beer. It sets itself up in its own directory ( `/usr/local/Cellar` ) that doesn't touch anything you've already installed elsewhere on your machine. Run 
 
