@@ -48,7 +48,7 @@ Homebrew uses it's own Cellar to keep itself apart from the system version of pr
 
 ### Install Python Packages Using 'pip'
 
-Python uses its own package manger called `pip`. For python 3, the command is pip3. It's similar to brew, but for python packages instead of system programs. First,
+Python uses its own package manger called `pip`. For python 3, the command is `pip3`. It's similar to brew, but for python packages instead of system programs. First,
 
 ```bash
 pip3 install --upgrade pip
