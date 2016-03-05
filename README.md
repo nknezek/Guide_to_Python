@@ -24,7 +24,8 @@ To see if everything is working or if it tells you you need to install anything 
 To see what you've installed with brew:
 
 ```bash
-brew list```
+brew list
+```
 
 It shouldn't list anything right now. 
 
@@ -32,7 +33,8 @@ It shouldn't list anything right now.
 To install python 3, run
 
 ```bash
-brew install python3``` 
+brew install python3
+``` 
 
 This will install the latest version of python 3 and all its dependencies in `/usr/local/Cellar` and symbolically link them into `/usr/local/bin` which should be listed first on your PATH. Note that `python` usually refers to Python 2 and `python3` refers to Python 3. If your PATH doesn't already list `/usr/local/bin` first, add
 
