@@ -109,7 +109,8 @@ pip3 install sphinx # documentation reader
 pip3 install rope # code tab-completion
 pip3 install pyflakes # analyzes code for mistakes (real-time)
 pip3 install pylint # analyzes code for mistakes (static)
-pip3 install psutil # shows CPU and memory usage```
+pip3 install psutil # shows CPU and memory usage
+```
 
 Then, install the in-development (--pre-release) version of spyder:
 ```bash 
@@ -123,7 +124,8 @@ pip3 install colorama==0.3.5
 
 To run spyder, simply type
 ```bash
-spyder```
+spyder
+```
 and a window should pop up after a bit. 
 
 ### Tips for Spyder
